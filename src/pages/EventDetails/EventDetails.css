@@ -1,0 +1,102 @@
+.event-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  background: #ffffff;
+  gap: 60px;
+}
+
+/* LEFT SIDE */
+.banner-left {
+  max-width: 480px;
+}
+
+.music-text {
+  display: inline-block;
+  font-weight: 600;
+  color: #d32f2f;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.party-text {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: #111;
+}
+
+.banner-desc {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.banner-date {
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.ticket-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.qr-box {
+  width: 48px;
+  height: 48px;
+  background: #111;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.ticket-label {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+}
+
+.ticket-site {
+  font-weight: 600;
+}
+
+.view-more {
+  padding: 12px 28px;
+  border: none;
+  background: #111;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* RIGHT SIDE */
+.banner-right {
+  position: relative;
+  width: 520px;
+  height: 360px;
+}
+
+.banner-right img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+
+/* Yellow background block */
+.image-bg {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  width: 100%;
+  height: 100%;
+  background: #ffb300;
+  z-index: 1;
+}
